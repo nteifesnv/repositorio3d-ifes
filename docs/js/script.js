@@ -10,6 +10,7 @@ const card = document.createElement("div");
 card.className = "card";
 
 card.innerHTML = `
+
 <img src="${modelo.imagem}">
 
 <div class="card-content">
@@ -18,13 +19,16 @@ card.innerHTML = `
 
 <p>${modelo.descricao}</p>
 
-<p><strong>Categoria:</strong> ${modelo.categoria}</p>
+<p><strong>Disciplina:</strong> ${modelo.categoria}</p>
 
 <a class="download" href="${modelo.download}" target="_blank">
-Download
+
+Download STL
+
 </a>
 
 </div>
+
 `;
 
 gallery.appendChild(card);
