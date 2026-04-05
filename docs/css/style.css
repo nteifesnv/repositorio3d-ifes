@@ -39,6 +39,17 @@ transform:translateY(-6px);
 box-shadow:0 8px 16px rgba(0,0,0,0.15);
 }
 
+.filtros {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#busca, #categoria {
+  padding: 10px;
+  font-size: 16px;
+}
+
 /* PADRONIZA IMAGENS, GIFS E VÍDEOS */
 .card img,
 .card video{
