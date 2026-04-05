@@ -5,7 +5,7 @@ const categoriaSelect = document.getElementById("categoria");
 let modelos = [];
 
 // 🔹 Carregar JSON
-fetch("data/modelos.json")
+fetch("modelos.json")
   .then(res => res.json())
   .then(data => {
     modelos = data;
