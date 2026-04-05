@@ -12,7 +12,7 @@ body{
 .topo {
   background: #009739;
   color: white;
-  padding: 15px 20px;
+  padding: 18px 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -35,7 +35,7 @@ body{
 }
 
 .logo-area img {
-  height: 55px; /* 👈 aumentamos aqui */
+  height: 65px; /* tamanho da logo */
 }
 
 .logo-area span {
