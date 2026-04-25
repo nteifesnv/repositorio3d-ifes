@@ -6,7 +6,6 @@
     "categoria": "Biologia",
     "download": "https://cults3d.com/en/downloads/176686468?creation=multi-color-cell-model"
   },
-  
   {
     "nome": "Guerreiro Espartano | Estátua de Soldado Grego Antigo | Impressão 3D",
     "descricao": "Honra e Glória! Capturado numa postura poderosa e pronta para a batalha, este modelo apresenta detalhes anatómicos precisos, armadura ornamentada e uma capa fluida para um impacto visual máximo.",
@@ -14,7 +13,6 @@
     "categoria": "História",
     "download": "https://cults3d.com/pt/downloads/176688775?creation=free-spartan-warrior-epic-3d-printable-statue"
   },
-  
   {
     "nome": "Trilobite Flexiphacops Rana",
     "descricao": "Adora fósseis antigos? Este fóssil flexível vai conquistar o teu coração!",
@@ -22,7 +20,6 @@
     "categoria": "Geologia",
     "download": "https://cults3d.com/pt/downloads/176695784?creation=trilobite-flexiphacops-rana"
   },
-  
   {
     "nome": "Puzzle Anatomia do Cérebro",
     "descricao": "Este puzzle do cérebro é baseado no puzzle criado por THISISJMAN9 no Thingiverse. O modelo abrange várias secções do cérebro como tronco cerebral, área de Broca, cerebelo, lóbulo frontal, lóbulo occipital, lóbulo parietal e lóbulo temporal.",
@@ -30,7 +27,6 @@
     "categoria": "Biologia",
     "download": "https://cults3d.com/pt/downloads/176689969?creation=brain-anatomy-puzzle"
   },
-  
   {
     "nome": "Modelo de Molécula da Cafeína",
     "descricao": "Modelo de molécula multicolor para ajudar os alunos a visualizarem onde os átomos de oxigénio, azoto, hidrogénio e carbono se ligam uns aos outros para formar a cafeína.",
@@ -38,7 +34,6 @@
     "categoria": "Química",
     "download": "https://cults3d.com/pt/downloads/176690155?creation=multi-color-caffeine-molecule-model"
   },
-  
   {
     "nome": "Catedral Multicolorida",
     "descricao": "Modelo de catedral multicolorida.",
@@ -46,7 +41,6 @@
     "categoria": "Arte",
     "download": "https://cults3d.com/pt/downloads/176690337?creation=multi-color-cathedral"
   },
-  
   {
     "nome": "Pedra preciosa Esmeralda",
     "descricao": "Pedra preciosa Esmeralda.",
@@ -54,7 +48,6 @@
     "categoria": "Geologia",
     "download": "https://cults3d.com/pt/downloads/176690923?creation=emerald-gemstone"
   },
-  
   {
     "nome": "Dodecaedro rômbico hiperbólico",
     "descricao": "Este dodecaedro rômbico hiperbólico capta a geometria precisa da curvatura negativa nas suas doze faces rômbicas. Cada face dobra-se para dentro, criando uma forma inspirada no espaço hiperbólico.",
@@ -62,7 +55,6 @@
     "categoria": "Matemática",
     "download": "https://cults3d.com/pt/downloads/176691162?creation=hyperbolic-rhombic-dodecahedron"
   },
-  
   {
     "nome": "Bola em Cubo",
     "descricao": "Bola em Cubo.",
@@ -70,27 +62,25 @@
     "categoria": "Matemática",
     "download": "https://cults3d.com/pt/downloads/176691363?creation=ball-in-cube-illusion"
   },
-  
   {
     "nome": "Máquina do Paradoxo do gato de Schrödinger",
     "descricao": "Modelo baseado no famoso experimento mental do gato de Schrödinger que ilustra o conceito de superposição quântica na mecânica quântica.",
     "imagem": "https://fbi.cults3d.com/uploaders/16718067/illustration-file/796663a3-39e4-45d0-8a12-b3b6767960b4/20230411_120756.gif",
     "categoria": "Matemática",
     "download": "https://cults3d.com/pt/downloads/176691676?creation=schrodinger-cat-paradox-machine"
-  }
-
+  },
   {
-  "nome": "Curva Braquistócrona (Brachistochrone Curve Demonstration)",
-  "descricao": "Modelo físico que demonstra a curva braquistócrona, o caminho de menor tempo entre dois pontos sob ação da gravidade. Ideal para experimentos didáticos em Física e Matemática, mostrando que o trajeto mais rápido não é a linha reta, mas uma curva cicloide.",
-  "imagens": [
-    "img/brachistochrone_curve_demonstration/img1.png",
-    "img/brachistochrone_curve_demonstration/img2.png",
-    "img/brachistochrone_curve_demonstration/img3.png",
-    "img/brachistochrone_curve_demonstration/img4.png",
-    "img/brachistochrone_curve_demonstration/img5.png",
-    "img/brachistochrone_curve_demonstration/img6.png"
-  ],
-  "categoria": "Física",
-  "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
-}
+    "nome": "Curva Braquistócrona (Brachistochrone Curve Demonstration)",
+    "descricao": "Modelo físico que demonstra a curva braquistócrona, o caminho de menor tempo entre dois pontos sob ação da gravidade.",
+    "imagens": [
+      "img/brachistochrone_curve_demonstration/img1.png",
+      "img/brachistochrone_curve_demonstration/img2.png",
+      "img/brachistochrone_curve_demonstration/img3.png",
+      "img/brachistochrone_curve_demonstration/img4.png",
+      "img/brachistochrone_curve_demonstration/img5.png",
+      "img/brachistochrone_curve_demonstration/img6.png"
+    ],
+    "categoria": "Física",
+    "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
+  }
 ]
