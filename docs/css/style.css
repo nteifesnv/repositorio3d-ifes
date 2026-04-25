@@ -15,34 +15,29 @@ body{
   padding-top: 15px;
 }
 
-/* CONTAINER */
 .topo-container {
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
 }
 
-/* LOGO + TÍTULO */
 .logo-area {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* LOGO */
 .logo-area img {
   height: 75px;
   width: auto;
 }
 
-/* TÍTULO */
 .titulo-area h1 {
   margin: 0;
   font-size: 26px;
   font-weight: bold;
 }
 
-/* SUBHEADER */
 .subheader {
   text-align: center;
   padding: 10px 20px 20px;
@@ -53,12 +48,9 @@ body{
   margin: 4px 0;
 }
 
-/* =========================
-   RESPONSIVIDADE (CELULAR)
-========================= */
+/* RESPONSIVO */
 @media (max-width: 768px) {
 
-  /* Empilha tudo */
   .logo-area {
     flex-direction: column;
     align-items: center;
@@ -66,22 +58,18 @@ body{
     gap: 10px;
   }
 
-  /* Logo menor no mobile */
   .logo-area img {
     height: 60px;
   }
 
-  /* Título ajustado */
   .titulo-area h1 {
     font-size: 20px;
   }
 
-  /* Subheader mais compacto */
   .subheader {
     font-size: 13px;
     padding: 8px 15px 15px;
   }
-
 }
 
 /* =========================
@@ -94,7 +82,7 @@ body{
 }
 
 /* =========================
-   FILTROS (BUSCA)
+   FILTROS
 ========================= */
 .filtros {
   max-width: 1200px;
@@ -110,7 +98,6 @@ body{
   align-items: center;
 }
 
-/* INPUT DE BUSCA */
 #busca {
   flex: 1;
   min-width: 250px;
@@ -121,14 +108,12 @@ body{
   transition: all 0.2s ease;
 }
 
-/* FOCO */
 #busca:focus {
   outline: none;
   border-color: #009739;
   box-shadow: 0 0 0 3px rgba(0,151,57,0.2);
 }
 
-/* SELECT */
 #categoria {
   padding: 12px 15px;
   border-radius: 8px;
@@ -139,7 +124,6 @@ body{
   transition: all 0.2s ease;
 }
 
-/* HOVER */
 #categoria:hover {
   border-color: #009739;
 }
@@ -171,16 +155,67 @@ body{
   box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* IMAGEM */
-.card img,
-.card video{
-  width:100%;
-  height:220px;
-  object-fit:cover;
-  display:block;
+/* =========================
+   CARROSSEL 🔥
+========================= */
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
 }
 
-/* CONTEÚDO */
+/* Slides */
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.slide.ativo {
+  opacity: 1;
+}
+
+/* Botões */
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 22px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  /* efeito Netflix */
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.carousel:hover button {
+  opacity: 1;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
+}
+
+.carousel button:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+/* =========================
+   CONTEÚDO
+========================= */
 .card-content{
   padding:15px;
   flex:1;
