@@ -8,7 +8,7 @@ function ativarCarrossel() {
     const prev = carousel.querySelector(".prev");
     const next = carousel.querySelector(".next");
 
-    let interval;
+    let interval = null;
 
     function mostrar(i) {
       slides.forEach(s => s.classList.remove("ativo"));
@@ -20,12 +20,12 @@ function ativarCarrossel() {
       mostrar(index);
     }
 
-    //  AUTO PLAY (if IMAGEM > 1)
+    // 🔹 AUTO PLAY só se tiver mais de 1 imagem
     if (slides.length > 1) {
       interval = setInterval(proximo, 2500);
     }
 
-    //  BOTÕES MANUAIS
+    // 🔹 BOTÕES
     if (next) {
       next.addEventListener("click", () => {
         index = (index + 1) % slides.length;
@@ -40,9 +40,9 @@ function ativarCarrossel() {
       });
     }
 
-    // PAUSA NO HOVER (UX MUITO MELHOR)
+    // 🔹 HOVER (com proteção)
     carousel.addEventListener("mouseenter", () => {
-      clearInterval(interval);
+      if (interval) clearInterval(interval);
     });
 
     carousel.addEventListener("mouseleave", () => {
