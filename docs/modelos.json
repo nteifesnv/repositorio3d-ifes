@@ -78,4 +78,19 @@
     "categoria": "Matemática",
     "download": "https://cults3d.com/pt/downloads/176691676?creation=schrodinger-cat-paradox-machine"
   }
+
+  {
+  "nome": "Curva Braquistócrona (Brachistochrone Curve Demonstration)",
+  "descricao": "Modelo físico que demonstra a curva braquistócrona, o caminho de menor tempo entre dois pontos sob ação da gravidade. Ideal para experimentos didáticos em Física e Matemática, mostrando que o trajeto mais rápido não é a linha reta, mas uma curva cicloide.",
+  "imagens": [
+    "img/brachistochrone_curve_demonstration/img1.png",
+    "img/brachistochrone_curve_demonstration/img2.png",
+    "img/brachistochrone_curve_demonstration/img3.png",
+    "img/brachistochrone_curve_demonstration/img4.png",
+    "img/brachistochrone_curve_demonstration/img5.png",
+    "img/brachistochrone_curve_demonstration/img6.png"
+  ],
+  "categoria": "Física",
+  "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
+}
 ]
