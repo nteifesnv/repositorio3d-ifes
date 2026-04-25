@@ -82,5 +82,20 @@
     ],
     "categoria": "Física",
     "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
-  }
+  },
+  {
+  "nome": "Campo Magnético (Magnetic Field Demonstration)",
+  "descricao": "Modelo tridimensional que representa visualmente as linhas de campo magnético ao redor de um ímã. Ideal para aulas de Física, permitindo aos alunos compreenderem a distribuição espacial e a intensidade relativa do campo magnético de forma concreta e interativa.",
+  "imagens": [
+    "img/magnetic_field/img1.png",
+    "img/magnetic_field/img2.png",
+    "img/magnetic_field/img3.png",
+    "img/magnetic_field/img4.png",
+    "img/magnetic_field/img5.png",
+    "img/magnetic_field/img6.png",
+    "img/magnetic_field/img7.png"
+  ],
+  "categoria": "Física",
+  "download": "https://drive.google.com/uc?export=download&id=1YQ445Ln1GFc1uWdEgV2tgQWonYm7e0NH"
+}
 ]
