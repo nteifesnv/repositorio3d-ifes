@@ -102,7 +102,7 @@
   "nome": "Mapa do Brasil em relevo",
   "descricao": "Mapa 3D do Brasil em relevo, composto por 27 peças correspondentes aos estados e ao Distrito Federal. O modelo utiliza dados SRTM para representar o relevo brasileiro, otimizado para impressão 3D em FDM, também compatível com SLA e usinagem CNC. Inclui escala cartográfica, exagero vertical e projeção policônica.",
   "imagens": [
-    "https://drive.google.com/uc?export=view&id=1q_Oa-R7xJP6xIacC0U2ThxR9W3pc9wVN"
+    "img/mapa-brasil-relevo.png"
   ],
   "categoria": "Geografia",
   "download": "https://drive.google.com/uc?export=download&id=1IzRJKnBfEt4rxiU3lqR-k3aZjw3oXdXJ"
