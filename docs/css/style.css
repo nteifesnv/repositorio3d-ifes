@@ -26,9 +26,10 @@ body{
 }
 
 .logo-area img {
-  height: 80px; /* leve aumento */
+  height: 80px;
 }
 
+/* TÍTULO */
 .titulo-area h1 {
   margin: 0;
   font-size: 26px;
@@ -43,6 +44,7 @@ body{
 
 /* RESPONSIVO */
 @media (max-width: 768px) {
+
   .logo-area {
     flex-direction: column;
     text-align: center;
@@ -55,6 +57,7 @@ body{
   .titulo-area h1 {
     font-size: 20px;
   }
+
 }
 
 /* CONTAINER */
@@ -72,12 +75,14 @@ body{
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-#busca, #categoria {
+#busca,
+#categoria {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -96,6 +101,11 @@ body{
   border-radius:12px;
   box-shadow:0 4px 10px rgba(0,0,0,0.1);
   overflow:hidden;
+
+  display:flex;
+  flex-direction:column;
+  height:100%;
+
   transition:0.2s;
 }
 
@@ -111,12 +121,13 @@ body{
   overflow: hidden;
 }
 
-/* Slides */
+/* SLIDES */
 .slide {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
+
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -125,18 +136,22 @@ body{
   opacity: 1;
 }
 
-/* Botões */
+/* BOTÕES */
 .carousel button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+
   background: rgba(0,0,0,0.5);
   border: none;
   color: white;
+
   font-size: 22px;
   padding: 6px 12px;
+
   cursor: pointer;
   border-radius: 6px;
+
   opacity: 0;
   transition: 0.2s;
 }
@@ -145,25 +160,51 @@ body{
   opacity: 1;
 }
 
-.prev { left: 10px; }
-.next { right: 10px; }
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
 
 /* CONTEÚDO */
 .card-content{
   padding:15px;
+
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+
+.card-content h3{
+  margin-top:0;
 }
 
 .card-content p{
   text-align:justify;
+  line-height:1.5;
 }
 
 /* BOTÃO */
 .download{
   display:block;
+
   background:#009739;
   color:white;
+
   padding:10px;
+
   text-align:center;
+  text-decoration:none;
+
   border-radius:6px;
-  margin-top:10px;
+
+  margin-top:auto;
+
+  transition:0.2s;
+}
+
+.download:hover{
+  background:#006b2e;
 }
