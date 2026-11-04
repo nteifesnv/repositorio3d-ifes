@@ -1,1 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Administração - Repositório 3D | IFES Nova Venécia</title>
+
+  <link
+    rel="icon"
+    sizes="16x16"
+    href="../img/logos/favicon32.png"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+
+</head>
+
+
+<body>
+
+
+  <!-- =====================================================
+       CABEÇALHO
+  ====================================================== -->
+
+  <header class="topo">
+
+  <div class="topo-container">
+
+    <div class="logo-area">
+
+      <a
+        href="https://novavenecia.ifes.edu.br/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="logo-link"
+        aria-label="Visitar o site do IFES Campus Nova Venécia"
+      >
+        <img
+          src="../img/logos/logo-nte-nv1-admin.png"
+          alt="IFES Campus Nova Venécia"
+        >
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+
+
+  <!-- =====================================================
+       CONTEÚDO
+  ====================================================== -->
+
+  <main class="container">
+
+
+    <!-- ===================================================
+         CABEÇALHO DA PÁGINA
+    ==================================================== -->
+
+    <section class="introducao">
+
+      <h2>Cadastro de modelo 3D</h2>
+
+      <p>
+        Preencha os dados abaixo para gerar o objeto JSON
+        que será posteriormente adicionado ao repositório.
+      </p>
+
+    </section>
+
+
+
+    <!-- ===================================================
+         FORMULÁRIO
+    ==================================================== -->
+
+    <section class="card">
+
+      <form id="modeloForm">
+
+
+        <!-- DADOS PRINCIPAIS -->
+
+        <div class="secao-titulo">
+
+          <span class="numero-secao">1</span>
+
+          <div>
+
+            <h2>Dados do modelo</h2>
+
+            <p>
+              Informe as informações básicas do modelo.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="grid">
+
+
+          <!-- NOME -->
+
+          <div class="campo campo-full">
+
+            <label for="nome">
+              Nome do modelo <span>*</span>
+            </label>
+
+            <input
+              type="text"
+              id="nome"
+              required
+              placeholder="Ex.: Mapa do Brasil em relevo"
+            >
+
+          </div>
+
+
+          <!-- DESCRIÇÃO -->
+
+          <div class="campo campo-full">
+
+            <label for="descricao">
+              Descrição <span>*</span>
+            </label>
+
+            <textarea
+              id="descricao"
+              rows="5"
+              required
+              placeholder="Descreva brevemente o modelo e sua finalidade educacional."
+            ></textarea>
+
+          </div>
+
+
+          <!-- CATEGORIA / DISCIPLINA -->
+
+          <div class="campo">
+
+            <label for="categoria">
+              Disciplina <span>*</span>
+            </label>
+
+            <select
+              id="categoria"
+              required
+            >
+
+              <option value="">
+                Selecione uma disciplina...
+              </option>
+
+              <option value="Arte">
+                Arte
+              </option>
+
+              <option value="Biologia">
+                Biologia
+              </option>
+
+              <option value="Ciência">
+                Ciência
+              </option>
+
+              <option value="Educação">
+                Educação
+              </option>
+
+              <option value="Física">
+                Física
+              </option>
+
+              <option value="Geografia">
+                Geografia
+              </option>
+
+              <option value="Geologia">
+                Geologia
+              </option>
+
+              <option value="História">
+                História
+              </option>
+
+              <option value="Matemática">
+                Matemática
+              </option>
+
+              <option value="Química">
+                Química
+              </option>
+
+              <option value="Robótica">
+                Robótica
+              </option>
+
+              <option value="Outros">
+                Outros
+              </option>
+
+              <option value="__nova__">
+                + Nova disciplina
+              </option>
+
+            </select>
+
+
+            <!-- NOVA DISCIPLINA -->
+
+            <div
+              id="novaDisciplinaArea"
+              class="nova-disciplina hidden"
+            >
+
+              <label for="novaDisciplina">
+                Nome da nova disciplina
+              </label>
+
+              <input
+                type="text"
+                id="novaDisciplina"
+                placeholder="Ex.: Física Nuclear"
+                maxlength="50"
+              >
+
+              <p class="ajuda">
+                A nova disciplina será utilizada neste cadastro
+                e adicionada ao JSON.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- DOWNLOAD -->
+
+          <div class="campo">
+
+            <label for="download">
+              Link para download <span>*</span>
+            </label>
+
+            <input
+              type="text"
+              id="download"
+              required
+              placeholder="https://..."
+            >
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             IMAGENS
+        ================================================== -->
+
+        <div class="secao-divisoria"></div>
+
+
+        <div class="secao-titulo">
+
+          <span class="numero-secao">2</span>
+
+          <div>
+
+            <h2>Imagens do modelo</h2>
+
+            <p>
+              Adicione uma imagem ou várias imagens para o carrossel.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="imagens-box">
+
+
+          <!-- TIPO DE IMAGEM -->
+
+          <div class="tipo-imagem">
+
+            <label class="radio">
+
+              <input
+                type="radio"
+                name="tipoImagem"
+                value="uma"
+                checked
+              >
+
+              <span>
+                Imagem única
+              </span>
+
+            </label>
+
+
+            <label class="radio">
+
+              <input
+                type="radio"
+                name="tipoImagem"
+                value="varias"
+              >
+
+              <span>
+                Várias imagens
+              </span>
+
+            </label>
+
+          </div>
+
+
+
+          <!-- IMAGEM ÚNICA -->
+
+          <div
+            id="imagemUnica"
+            class="imagem-area"
+          >
+
+            <label for="imagem">
+              URL da imagem
+            </label>
+
+            <input
+              type="text"
+              id="imagem"
+              placeholder="https://... ou img/nome-do-arquivo.png"
+            >
+
+            <p class="ajuda">
+              Se nenhuma imagem for informada, serão utilizadas
+              automaticamente as imagens padrão do repositório.
+            </p>
+
+          </div>
+
+
+
+          <!-- MÚLTIPLAS IMAGENS -->
+
+          <div
+            id="imagensMultiplas"
+            class="imagem-area hidden"
+          >
+
+            <div id="listaImagens"></div>
+
+
+            <button
+              type="button"
+              id="adicionarImagem"
+              class="btn btn-outline"
+            >
+              + Adicionar imagem
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             AÇÕES
+        ================================================== -->
+
+        <div class="acoes">
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+          >
+            Gerar JSON
+          </button>
+
+
+          <button
+            type="button"
+            id="limpar"
+            class="btn btn-secondary"
+          >
+            Limpar
+          </button>
+
+        </div>
+
+      </form>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         RESULTADO
+    ====================================================== -->
+
+    <section
+      id="resultado"
+      class="card resultado hidden"
+    >
+
+      <div class="resultado-header">
+
+        <div>
+
+          <div class="resultado-titulo">
+
+            <span class="numero-secao">3</span>
+
+            <div>
+
+              <h2>JSON gerado</h2>
+
+              <p>
+                Revise as informações antes de adicionar
+                o modelo ao <strong>modelos.json</strong>.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <span
+          id="tipoGerado"
+          class="badge"
+        ></span>
+
+      </div>
+
+
+
+      <!-- JSON -->
+
+      <textarea
+        id="jsonOutput"
+        readonly
+        spellcheck="false"
+      ></textarea>
+
+
+
+      <!-- BOTÕES -->
+
+      <div class="acoes">
+
+        <button
+          type="button"
+          id="copiar"
+          class="btn btn-primary"
+        >
+          Copiar JSON
+        </button>
+
+
+        <button
+          type="button"
+          id="baixar"
+          class="btn btn-secondary"
+        >
+          Baixar modelo.json
+        </button>
+
+      </div>
+
+
+      <p
+        id="status"
+        class="status"
+      ></p>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         AVISO
+    ====================================================== -->
+
+    <section class="aviso">
+
+      <strong>Importante</strong>
+
+      <p>
+        Esta página não altera automaticamente o GitHub.
+        O JSON gerado deve ser revisado pelo administrador
+        e posteriormente adicionado manualmente ao repositório.
+      </p>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =====================================================
+       RODAPÉ
+  ====================================================== -->
+
+  <footer>
+
+    <p>
+      NTE – IFES Campus Nova Venécia · Repositório 3D
+    </p>
+
+  </footer>
+
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+  ====================================================== -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
