@@ -1,62 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-   <head>
-   
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <title>NTE Repositório 3D - IFES Nova Venécia</title>
-      <link rel="icon" sizes="16x16" href="img/logos/favicon32.png">
-      
-      <link rel="stylesheet" href="css/style.css">
-   
-   </head>
-   
-   <body>
-   
-      <header class="topo">
+<head>
 
-        <div class="topo-container">
-          
-          <div class="logo-area">
-            <img src="img/logos/nova-venecia-horizontal-branco.png" alt="IFES Nova Venécia">
-            <div class="titulo-area">
-              <h1>Repositório 3D</h1>
-            </div>
-          </div>
-      
-        </div>
-      
-        <div class="subheader">
-          <p><strong>NTE – IFES Campus Nova Venécia</strong></p>
-          <p>Biblioteca de modelos para impressão 3D utilizados em atividades educacionais</p>
-        </div>
-      
-      </header>
-      <!-- Filtro de busca -->
-      <div class="filtros">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-           <input 
-             type="text" 
-             id="busca" 
-             placeholder="🔎 Buscar modelos..."
-           >
-         
-           <select id="categoria">
-             <option value="todas">Todas as disciplinas</option>
-           </select>
+  <title>NTE Repositório 3D - IFES Nova Venécia</title>
 
-      </div>
-      <div class="container">
-      
-         <div id="gallery" class="gallery">
-      
-         </div>
-      
-      </div>
-   
-      <script src="js/script.js"></script>
-   
-   </body>
+  <link rel="icon" sizes="16x16" href="img/logos/favicon32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="topo">
+
+    <div class="topo-container">
+
+      <div class="logo-area">
+
+          <a
+            href="https://novavenecia.ifes.edu.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="logo-link"
+            aria-label="Visitar o site do IFES Campus Nova Venécia"
+          >
+            <img
+              src="img/logos/logo-nte-nv1.png"
+              alt="IFES Campus Nova Venécia"
+            >
+          </a>
+
+
+</div>
+
+
+    </div>
+
+    
+  </header>
+
+
+  <!-- =========================
+       FILTROS DE BUSCA
+  ========================== -->
+
+  <div class="filtros">
+
+    <input
+      type="text"
+      id="busca"
+      placeholder="🔎 Buscar modelos..."
+      aria-label="Buscar modelos"
+    >
+
+    <select
+      id="categoria"
+      aria-label="Filtrar por disciplina"
+    >
+      <option value="todas">Todas as disciplinas</option>
+    </select>
+
+  </div>
+
+
+  <!-- =========================
+       GALERIA
+  ========================== -->
+
+  <main class="container">
+
+    <div id="gallery" class="gallery">
+
+    </div>
+
+  </main>
+
+
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>
+
