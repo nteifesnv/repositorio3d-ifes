@@ -1,110 +1,259 @@
 [
-  {
-    "nome": "Célula Animal",
-    "descricao": "Este modelo multicolorido de uma célula mostra como a impressão 3D pode ser benéfica nas áreas da educação e da medicina. Ele não apenas exibe diferentes níveis da célula, como também destaca áreas de interesse por meio de cores.",
-    "imagem": "https://images.cults3d.com/QOKR5lRkCD3-8Z2atxkOcCQzdKo=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/2141422/illustration-file/9afe2b50-d2a2-4639-8989-efdd8f8a0294/Capture%20d%E2%80%99e%CC%81cran%202017-08-16%20a%CC%80%2018.25.30.png",
-    "categoria": "Biologia",
-    "download": "https://cults3d.com/en/downloads/176686468?creation=multi-color-cell-model"
-  },
-  {
-    "nome": "Guerreiro Espartano | Estátua de Soldado Grego Antigo | Impressão 3D",
-    "descricao": "Honra e Glória! Capturado numa postura poderosa e pronta para a batalha, este modelo apresenta detalhes anatómicos precisos, armadura ornamentada e uma capa fluida para um impacto visual máximo.",
-    "imagem": "https://fbi.cults3d.com/uploaders/37367492/illustration-file/e8dd5382-c784-4afa-92a6-30308adc5456/ezgif.com-animated-gif-maker-11.gif",
-    "categoria": "História",
-    "download": "https://cults3d.com/pt/downloads/176688775?creation=free-spartan-warrior-epic-3d-printable-statue"
-  },
-  {
-    "nome": "Trilobite Flexiphacops Rana",
-    "descricao": "Adora fósseis antigos? Este fóssil flexível vai conquistar o teu coração!",
-    "imagem": "img/VID_20250307_232937_4.gif",
-    "categoria": "Geologia",
-    "download": "https://cults3d.com/pt/downloads/176695784?creation=trilobite-flexiphacops-rana"
-  },
-  {
-    "nome": "Puzzle Anatomia do Cérebro",
-    "descricao": "Este puzzle do cérebro é baseado no puzzle criado por THISISJMAN9 no Thingiverse. O modelo abrange várias secções do cérebro como tronco cerebral, área de Broca, cerebelo, lóbulo frontal, lóbulo occipital, lóbulo parietal e lóbulo temporal.",
-    "imagem": "https://images.cults3d.com/qmALgtMlDZOWEyyQ8W-s--_jhlM=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/21002457/illustration-file/92ae9302-e915-46c4-bd21-0c39b6abe2ee/IMG_5172.jpg",
-    "categoria": "Biologia",
-    "download": "https://cults3d.com/pt/downloads/176689969?creation=brain-anatomy-puzzle"
-  },
-  {
-    "nome": "Modelo de Molécula da Cafeína",
-    "descricao": "Modelo de molécula multicolor para ajudar os alunos a visualizarem onde os átomos de oxigénio, azoto, hidrogénio e carbono se ligam uns aos outros para formar a cafeína.",
-    "imagem": "https://images.cults3d.com/sImPBU20IOVtQ_3ZN5ds2Q1vb9s=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/2141422/illustration-file/52a554aa-b345-4b48-9809-779d59a25a7e/Capture%20d%E2%80%99e%CC%81cran%202017-11-23%20a%CC%80%2015.52.53.png",
-    "categoria": "Química",
-    "download": "https://cults3d.com/pt/downloads/176690155?creation=multi-color-caffeine-molecule-model"
-  },
-  {
-    "nome": "Catedral Multicolorida",
-    "descricao": "Modelo de catedral multicolorida.",
-    "imagem": "https://fbi.cults3d.com/uploaders/2141422/illustration-file/f32e9fe6-0d69-4551-a3cc-100b92d42c54/Capture%20d%E2%80%99e%CC%81cran%202017-04-14%20a%CC%80%2009.37.25.png",
-    "categoria": "Arte",
-    "download": "https://cults3d.com/pt/downloads/176690337?creation=multi-color-cathedral"
-  },
-  {
-    "nome": "Pedra preciosa Esmeralda",
-    "descricao": "Pedra preciosa Esmeralda.",
-    "imagem": "https://fbi.cults3d.com/uploaders/25861456/illustration-file/974d4fc4-e3dc-414d-a7d5-72f28d3916e0/photo.jpg",
-    "categoria": "Geologia",
-    "download": "https://cults3d.com/pt/downloads/176690923?creation=emerald-gemstone"
-  },
-  {
-    "nome": "Dodecaedro rômbico hiperbólico",
-    "descricao": "Este dodecaedro rômbico hiperbólico capta a geometria precisa da curvatura negativa nas suas doze faces rômbicas. Cada face dobra-se para dentro, criando uma forma inspirada no espaço hiperbólico.",
-    "imagem": "img/dodecaedro-rombico-hiperbolico.gif",
-    "categoria": "Matemática",
-    "download": "https://cults3d.com/pt/downloads/176691162?creation=hyperbolic-rhombic-dodecahedron"
-  },
-  {
-    "nome": "Bola em Cubo",
-    "descricao": "Bola em Cubo.",
-    "imagem": "https://fbi.cults3d.com/uploaders/18989122/illustration-file/d357f22c-0de4-4ed1-ae16-17e3161b01c4/IMG_8643.gif",
-    "categoria": "Matemática",
-    "download": "https://cults3d.com/pt/downloads/176691363?creation=ball-in-cube-illusion"
-  },
-  {
-    "nome": "Máquina do Paradoxo do gato de Schrödinger",
-    "descricao": "Modelo baseado no famoso experimento mental do gato de Schrödinger que ilustra o conceito de superposição quântica na mecânica quântica.",
-    "imagem": "https://fbi.cults3d.com/uploaders/16718067/illustration-file/796663a3-39e4-45d0-8a12-b3b6767960b4/20230411_120756.gif",
-    "categoria": "Matemática",
-    "download": "https://cults3d.com/pt/downloads/176691676?creation=schrodinger-cat-paradox-machine"
-  },
-  {
-    "nome": "Curva Braquistócrona (Brachistochrone Curve Demonstration)",
-    "descricao": "Modelo físico que demonstra a curva braquistócrona, o caminho de menor tempo entre dois pontos sob ação da gravidade.",
-    "imagens": [
-      "img/brachistochrone_curve_demonstration/img1.png",
-      "img/brachistochrone_curve_demonstration/img2.png",
-      "img/brachistochrone_curve_demonstration/img3.png",
-      "img/brachistochrone_curve_demonstration/img4.png",
-      "img/brachistochrone_curve_demonstration/img5.png",
-      "img/brachistochrone_curve_demonstration/img6.png"
-    ],
-    "categoria": "Física",
-    "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
-  },
-  {
-  "nome": "Campo Magnético (Magnetic Field Demonstration)",
-  "descricao": "Modelo tridimensional que representa visualmente as linhas de campo magnético ao redor de um ímã. Ideal para aulas de Física, permitindo aos alunos compreenderem a distribuição espacial e a intensidade relativa do campo magnético de forma concreta e interativa.",
-  "imagens": [
-    "img/magnetic_field/img1.png",
-    "img/magnetic_field/img2.png",
-    "img/magnetic_field/img3.png",
-    "img/magnetic_field/img4.png",
-    "img/magnetic_field/img5.jpg",
-    "img/magnetic_field/img6.jpg",
-    "img/magnetic_field/img7.jpg"
-  ],
-  "categoria": "Física",
-  "download": "https://drive.google.com/uc?export=download&id=1YQ445Ln1GFc1uWdEgV2tgQWonYm7e0NH"
-},
-  {
-  "nome": "Mapa do Brasil em relevo",
-  "descricao": "Mapa 3D do Brasil em relevo, composto por 27 peças correspondentes aos estados e ao Distrito Federal. O modelo utiliza dados SRTM para representar o relevo brasileiro, otimizado para impressão 3D em FDM, também compatível com SLA e usinagem CNC. Inclui escala cartográfica, exagero vertical e projeção policônica.",
-  "imagens": [
-    "img/mapa-brasil-relevo.png"
-  ],
-  "categoria": "Geografia",
-  "download": "https://drive.google.com/uc?export=download&id=1IzRJKnBfEt4rxiU3lqR-k3aZjw3oXdXJ"
-}
+	{
+	  "nome": "Célula Eucariota",
+	  "descricao": "Célula Eucariota – por raulcg1990, disponível no Thingiverse: https://www.thingiverse.com/thing:864029",
+	  "imagem": "img/biologia/Celula_Eucariota-864029/celula_eucariota.png",
+	  "categoria": "Biologia",
+	  "download": "https://drive.google.com/uc?export=download&id=1tlXGAB83RagCx9TmSXl-OR7EeWl_bi_3"
+	},
+	{
+	  "nome": "Célula Procariota",
+	  "descricao": "Célula Procariota – por raulcg1990, disponível no Thingiverse: https://www.thingiverse.com/thing:864044",
+	  "imagem": "img/biologia/Celula_Procariota-864044/celula_procariota.png",
+	  "categoria": "Biologia",
+	  "download": "https://drive.google.com/uc?export=download&id=142YGhqg9Us_Am1-PZP27-q3A260O4Qlw"
+	},
+	{
+	  "nome": "Curva Braquistócrona (Brachistochrone Curve Demonstration)",
+	  "descricao": "Modelo físico que demonstra a curva braquistócrona, o caminho de menor tempo entre dois pontos sob ação da gravidade.",
+	  "imagens": 
+	  	[
+	      "img/fisica/brachistochrone_curve_demonstration/img1.png",
+	      "img/fisica/brachistochrone_curve_demonstration/img2.png",
+	      "img/fisica/brachistochrone_curve_demonstration/img3.png",
+	      "img/fisica/brachistochrone_curve_demonstration/img4.png",
+	      "img/fisica/brachistochrone_curve_demonstration/img5.png",
+	      "img/fisica/brachistochrone_curve_demonstration/img6.png"
+   		],
+      "categoria": "Física",
+      "download": "https://drive.google.com/uc?export=download&id=1njzeu-qbcSxE07wCntLV4cbaJ-KHvCMz"
+	},
+	{
+	  "nome": "Campo Magnético (Magnetic Field Demonstration)",
+	  "descricao": "Modelo tridimensional que representa visualmente as linhas de campo magnético ao redor de um ímã. Ideal para aulas de Física, permitindo aos alunos compreenderem a distribuição espacial e a intensidade relativa do campo magnético de forma concreta e interativa.",
+	  "imagens": 
+	  [
+	    "img/fisica/magnetic_field/img1.png",
+	    "img/fisica/magnetic_field/img2.png",
+	    "img/fisica/magnetic_field/img3.png",
+	    "img/fisica/magnetic_field/img4.png",
+	    "img/fisica/magnetic_field/img5.jpg",
+	    "img/fisica/magnetic_field/img6.jpg",
+	    "img/fisica/magnetic_field/img7.jpg"
+	  ],
+	  "categoria": "Física",
+	  "download": "https://drive.google.com/uc?export=download&id=1YQ445Ln1GFc1uWdEgV2tgQWonYm7e0NH"
+	},
+	{
+	  "nome": "Balloon Car",
+	  "descricao": "Modelo 3D de um veículo experimental movido por propulsão a ar, com estrutura alongada e um sistema de suporte para balão, destinado a demonstrar o princípio de ação.",
+	  "imagens": [
+	    "img/fisica/balloon-car/img1.png",
+	    "img/fisica/balloon-car/img2.png",
+	    "img/fisica/balloon-car/img3.png",
+	    "img/fisica/balloon-car/img4.png"
+	  ],
+	  "categoria": "Física",
+	  "download": "https://drive.google.com/uc?export=download&id=1q56FqB9hj033-2D4jzOesE_tjFlkrBS8"
+	},
+	{
+	  "nome": "Catapulta Estilo Da Vinci",
+	  "descricao": "Modelo 3D de uma catapulta inspirada nos projetos de Leonardo da Vinci. Reproduzida por impressão 3D, possui peças que podem ser impressas sem a necessidade de suportes.\n\nReferência: Máquinas de Leonardo: Segredos e Invenções nos Códices Da Vinci, de Mario Taddei, Domenico Laurenza e Edoardo Zanon.",
+	  "imagens": [
+	    "img/fisica/da_vinci_style_catapult/img1.jpg",
+	    "img/fisica/da_vinci_style_catapult/img2.jpg",
+	    "img/fisica/da_vinci_style_catapult/img3.jpg",
+	    "img/fisica/da_vinci_style_catapult/img4.jpg"
+	  ],
+	  "categoria": "Física",
+	  "download": "https://drive.google.com/uc?export=download&id=1Nyf6Yh09KjSpyORuTuB7N0BsfdF1vxs0"
+	},
+	{
+		"nome": "Mapa do Brasil em relevo",
+		  "descricao": "Mapa 3D do Brasil em relevo, composto por 27 peças correspondentes aos estados e ao Distrito Federal. O modelo utiliza dados SRTM para representar o relevo brasileiro, otimizado para impressão 3D em FDM, também compatível com SLA e usinagem CNC. Inclui escala cartográfica, exagero vertical e projeção policônica.",
+		  "imagens": [
+		    "img/geografia/mapa-brasil-relevo.png"
+		  ],
+		  "categoria": "Geografia",
+		  "download": "https://drive.google.com/uc?export=download&id=1IzRJKnBfEt4rxiU3lqR-k3aZjw3oXdXJ"
+	},
+	{
+	  "nome": "Modelo de Vale Geológico",
+	  "descricao": "Peça didática em formato cúbico que apresenta três tipos de vales (em V, em U e ravina), além de uma face plana. As estruturas são conectadas por um caminho e permitem comparar diferentes formas de relevo.\n\nInspirado em modelo de tomasgivan, disponível no Thingiverse: https://www.thingiverse.com/thing:295168",
+	  "imagens": [
+	    "img/geografia/E3D+VET exercise_ Valleys Types Canyon - 3824727/canyon_terrain.png",
+	    "img/geografia/E3D+VET exercise_ Valleys Types Canyon - 3824727/valley.jpg",
+	    "img/geografia/E3D+VET exercise_ Valleys Types Canyon - 3824727/Valleys.PNG"
+	  ],
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1jFFWdZKTFQDuCVuFPZlamkuLPgV1XPSr"
+	},
+	{
+	  "nome": "Globo Topográfico da Terra",
+	  "descricao": "Modelo 3D educativo com relevo terrestre em alto detalhe e elevação exagerada. Os contornos dos continentes são levemente elevados para facilitar a identificação das linhas costeiras. Inclui duas semiesferas ocas e uma versão esférica completa, permitindo diferentes opções de impressão.",
+	  "imagens": [
+	    "img/geografia/Earth topography with coastlines - 2237721/img1.png",
+	    "img/geografia/Earth topography with coastlines - 2237721/img2.png",
+	    "img/geografia/Earth topography with coastlines - 2237721/Assembled.jpg",
+	    "img/geografia/Earth topography with coastlines - 2237721/Assembled_2.jpg",
+	    "img/geografia/Earth topography with coastlines - 2237721/Hollow_internal.jpg",
+	    "img/geografia/Earth topography with coastlines - 2237721/Northern_hemisphere.jpg",
+	    "img/geografia/Earth topography with coastlines - 2237721/Southern_hemisphere.jpg"
+	  ],
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1SZS8ERZiobg-ex6RkJ1SVAGEefSWOyll"
+	},
+	{
+	  "nome": "Etna Volcano",
+	  "descricao": "Modelo 3D do vulcão Etna, localizado na ilha da Sicília, na Itália.",
+	  "imagem": "img/geografia/Etna Volcano/img1.png",
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1VCnRcy37V8gKkReeAVFTQRTm_7y6o66E"
+	},
+	{
+	  "nome": "Globe Cross Section",
+	  "descricao": "Modelo 3D de um globo terrestre em corte transversal, permitindo visualizar sua estrutura interna.",
+	  "imagem": "img/geografia/GlobeCrossSection/img.png",
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=17EkjXrbxbpIQW6wQJus24yHsfenerO1E"
+	},
+	{
+	  "nome": "TopTile – Everest",
+	  "descricao": "Modelo 3D topográfico do Monte Everest, representando seu relevo e suas elevações.",
+	  "imagem": "img/geografia/TopTile_Everest/img.png",
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=11bxUSfI7zZkcL7QCLbtflVirsQP2j_oF"
+	},
+	{
+	  "nome": "Vulcão",
+	  "descricao": "Modelo 3D de um vulcão, representando sua formação geológica.",
+	  "imagens": [
+	    "img/geografia/Volcan/img1.png",
+	    "img/geografia/Volcan/img2.png",
+	    "img/geografia/Volcan/img3.png"
+	  ],
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1k6fQzmJNSosEjKiEfwH1rjtjN7Gcdh1e"
+	},
+	{
+	  "nome": "Monte Vesúvio",
+	  "descricao": "Modelo 3D do vulcão Vesúvio, localizado próximo à cidade de Nápoles, na Itália. O modelo possui escala reduzida e relevo vertical exagerado. Inclui compartimento para bicarbonato de sódio e canal para simulação de erupções com bicarbonato e vinagre.\n\nInstrução de impressão: Sem raft.",
+	  "imagens": [
+	    "img/geografia/Vesuvius Volcano - 4124/img1.webp",
+	    "img/geografia/Vesuvius Volcano - 4124/img2.webp",
+	    "img/geografia/Vesuvius Volcano - 4124/img3.webp",
+	    "img/geografia/Vesuvius Volcano - 4124/img4.webp"
+	  ],
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1dqYuJgQQhuhs2RJOkyzYM2FixqxBfUR6"
+	},
+	{
+	  "nome": "Lua",
+	  "descricao": "Modelo 3D da Lua, com crateras distribuídas por toda a sua superfície. Possui alta proporção de cavidades e pode ser adaptado para a criação de luminárias decorativas. Inclui também o arquivo original do Blender para personalização do modelo.",
+	  "imagens": [
+	    "img/geografia/The_moon_1014620/img1.jpg",
+	    "img/geografia/The_moon_1014620/img2.jpg",
+	    "img/geografia/The_moon_1014620/img3.jpg",
+	    "img/geografia/The_moon_1014620/Image_2.jpg",
+	    "img/geografia/The_moon_1014620/Dexters_Moon_v2.jpg",
+	    "img/geografia/The_moon_1014620/moon_g.jpg",
+	    "img/geografia/The_moon_1014620/updota.jpg",
+	    "img/geografia/The_moon_1014620/UV_Mapping.jpg"
+	  ],
+	  "categoria": "Geografia",
+	  "download": "https://drive.google.com/uc?export=download&id=1Btg6Y_Iwnsyee_GB3WQUdooH0ng46zYo"
+	},
+	{
+	  "nome": "Trilobita Flexiphacops Rana",
+	  "descricao": "Adora fósseis antigos? Este fóssil flexível vai conquistar o teu coração!\nModelo 3D, totalmente flexível, de um Trilobita, artrópode marinho extinto que viveu durante a Era Paleozoica.",
+	  "imagens": [
+	    "img/geologia/Trilobite Flexiphacops rana/img1.webp",
+	    "img/geologia/Trilobite Flexiphacops rana/img2.webp",
+	    "img/geologia/Trilobite Flexiphacops rana/VID_20250307_232937_4.gif",
+	    "img/geologia/Trilobite Flexiphacops rana/VID_20250312_165531_1.gif"
+	  ],
+	  "categoria": "Geologia",
+	  "download": "https://drive.google.com/drive/folders/1jTw6u3RC57wrmKOp0b0Htj8PxhkzYGjT?usp=drive_link"
+	},
+	{
+	  "nome": "Trilobita Crotalocephalina Voadora",
+	  "descricao": "Modelo 3D científico de um trilobita do gênero Crotalocephalina, um artrópode marinho extinto.",
+	  "imagens": [
+	    "img/geologia/Trilobite Crotalocephalina voadora - Modelo científico/img1.webp",
+	    "img/geologia/Trilobite Crotalocephalina voadora - Modelo científico/img2.webp",
+	    "img/geologia/Trilobite Crotalocephalina voadora - Modelo científico/img3.webp",
+	    "img/geologia/Trilobite Crotalocephalina voadora - Modelo científico/img4.webp"
+	  ],
+	  "categoria": "Geologia",
+	  "download": "https://drive.google.com/drive/folders/1ujbn8wlHtzLKUmDRpQnuqUdgt-CRpk1n?usp=drive_link"
+	},
+	{
+	  "nome": "Modelo Atômico de Bohr",
+	  "descricao": "Modelo 3D de um átomo representado segundo a teoria atômica de Bohr, ilustrando o núcleo e os elétrons distribuídos em órbitas (níveis de energia) ao seu redor.",
+	  "imagens": [
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img1.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img2.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img3.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img4.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img5.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img6.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img7.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img8.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img9.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img10.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img11.png",
+	    "img/quimica/Bohr Atomic Model - 6503476 - part 1 of 2/img12.jpg"
+	  ],
+	  "categoria": "Química",
+	  "download": "https://drive.google.com/uc?export=download&id=1-FQ1Zlb0ewYFH8USwmdQxBD5tkkwV2lS"
+	},
+	{
+	  "nome": "Modelos Moleculares de Buteno e Outros Compostos",
+	  "descricao": "Conjunto de modelos 3D de estruturas moleculares, incluindo o buteno e outros compostos químicos. Os modelos representam os átomos e suas ligações químicas em formato tridimensional.",
+	  "imagens": [
+	    "img/quimica/Buteno & other. - 2671536/img1.png",
+	    "img/quimica/Buteno & other. - 2671536/img2.png",
+	    "img/quimica/Buteno & other. - 2671536/img3.png",
+	    "img/quimica/Buteno & other. - 2671536/img4.png"
+	  ],
+	  "categoria": "Química",
+	  "download": "https://drive.google.com/uc?export=download&id=1rGgA-ApGKI2iHIT6DuKWwCSrLrM1wwrH"
+	},
+	{
+	  "nome": "Modelos 3D de Grafeno e Grafite",
+	  "descricao": "Conjunto de modelos 3D que representa a estrutura do grafeno e do grafite, ambos formados por átomos de carbono organizados em estruturas hexagonais. O modelo permite visualizar uma camada isolada de grafeno e o empilhamento de camadas que formam o grafite, utilizando espaçadores para demonstrar sua organização estrutural. Desenvolvido para impressão 3D sem necessidade de suportes.",
+	  "imagens": [
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/avogadro.JPG",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/chimera_graphene.JPG",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/grafeno.jpg",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/grafite-3-camadas.jpg",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/grafite-side-view.jpg",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/grafite-top-view.jpg",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/graphene_plane_model.png",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/graphite_spacer.png",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/IMG_8356.JPG",
+	    "img/quimica/Graphene plane and graphite models with no supports - 4123073/IMG_8380.JPG"
+	  ],
+	  "categoria": "Química",
+	  "download": "https://drive.google.com/uc?export=download&id=13xeyGA7YmS4X5x7LIJ19hP_sMxiajG7q"
+	},
+	{
+	  "nome": "Modelo Molecular da Água (H₂O)",
+	  "descricao": "Modelo 3D que representa a estrutura de uma molécula de água (H₂O), composta por dois átomos de hidrogênio ligados a um átomo de oxigênio. Desenvolvido para impressão 3D, é indicado para atividades educativas e demonstrações em aulas de química, permitindo visualizar a disposição espacial dos átomos na molécula.",
+	  "imagens": [
+	    "img/quimica/Molecula - H2O - 6829391/Molecula_Agua.png",
+	    "img/quimica/Molecula - H2O - 6829391/Molecula_1.png",
+	    "img/quimica/Molecula - H2O - 6829391/Molecula_2.png",
+	    "img/quimica/Molecula - H2O - 6829391/Molecula_3.png"
+	  ],
+	  "categoria": "Química",
+	  "download": "https://drive.google.com/uc?export=download&id=165R7gjiCiEpZfLJB70pnSm3sudjhUNbv"
+	},
+	{
+	  "nome": "Modelo Atômico de Rutherford (Carbono)",
+	  "descricao": "Modelo 3D de um átomo de carbono baseado no modelo atômico de Rutherford, desenvolvido como recurso didático para auxiliar no estudo da estrutura atômica. Representa o núcleo atômico e os elétrons ao seu redor, permitindo visualizar de forma tridimensional a organização básica de um átomo.",
+	  "imagem": "img/quimica/Rutherford Atom model (Carbon) - 5968833/img.png",
+	  "categoria": "Química",
+	  "download": "https://drive.google.com/uc?export=download&id=1v6IPLWdeJ35jMCjSfrBypA_Yv1IRYm2q"
+	}
 ]
