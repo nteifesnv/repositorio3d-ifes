@@ -1,0 +1,1 @@
+Graphene plane and graphite models with no supports by almateus on Thingiverse: https://www.thingiverse.com/thing:4123073
