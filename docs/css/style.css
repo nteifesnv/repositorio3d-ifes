@@ -1188,3 +1188,10 @@ a.site-footer__contact-item:hover {
   }
 
 }
+
+
+.site-footer__rights {
+  margin: 3px 0 0;
+  font-size: 0.75rem;
+  color: rgba(188, 212, 195, 0.75);
+}
